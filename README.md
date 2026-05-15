@@ -1,10 +1,14 @@
 🏃‍♂️ SmartRunSense
+
 IoT-Based Environmental Monitoring and Prediction System
+
 C++ · Python · scikit-learn · Google Cloud · Firebase · ESP32
+
 📖 Overview
 Outdoor running offers major physical and mental health benefits, but environmental conditions such as heat, humidity, particulate matter, and gas pollutants can introduce serious physiological stress.
 SmartRunSense is an IoT-based environmental intelligence system designed to help runners make safer and more informed training decisions. It combines real-time sensor data, cloud infrastructure, and machine learning forecasting to provide both live and predictive environmental insights.
 The system integrates wearable and stationary IoT nodes, cloud-based data storage, ML-driven forecasting, and a mobile application for visualization and decision support.
+
 🗺️ System Architecture
 SmartRunSense is built across four logical layers:
 Edge Layer (IoT Devices):
@@ -15,6 +19,7 @@ Cloud Processing Layer:
 Google Cloud Run microservice running a scikit-learn-based forecasting engine.
 Application Layer:
 Mobile app for live monitoring, historical analysis, and predictive insights.
+
 ✨ Key Features
 📡 Real-Time Environmental Monitoring
 Continuous data collection from wearable and Smart Pole IoT nodes.
