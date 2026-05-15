@@ -21,19 +21,25 @@ Application Layer:
 Mobile app for live monitoring, historical analysis, and predictive insights.
 
 ✨ Key Features
+
 📡 Real-Time Environmental Monitoring
 Continuous data collection from wearable and Smart Pole IoT nodes.
+
 🤖 Machine Learning Forecasting
 Predicts environmental conditions up to 7 days ahead using a Random Forest Regressor.
+
 📱 Mobile Application Dashboard
 Provides live sensor data, analytics, and personalized run recommendations.
+
 📅 Smart Scheduling System
 Suggests optimal time slots for outdoor activity based on predicted environmental risk.
+
 🛠️ Hardware Architecture
 ⌚ Wearable Device
 Portable ESP32-based node (ESP32 DevKitC / ESP32-C3) designed for runners in motion.
 🗼 Smart Pole (Stationary Node)
 Fixed monitoring stations powered by ESP32-S3 for continuous environmental tracking in public areas.
+
 🌡️ Sensor Suite
 Both nodes integrate a shared set of sensors:
 🌬️ ENS160 – Air quality (AQI, eCO₂, TVOC)
@@ -46,9 +52,11 @@ Both nodes integrate a shared set of sensors:
 📈 Training Data: Last 14 days of sensor data (~20,000 records)
 🔮 Forecast Horizon: 7 days ahead in 30-minute intervals (336 steps)
 🎯 Outputs: Temperature, humidity, dust density, AQI, TVOC, CO₂, gas pollution %
+
 🗄️ Database
 🔥 Google Firestore
 Stores real-time sensor readings and ML-generated forecasts with timestamped environmental metrics.
+
 📱 Mobile Application
 📊 Live Monitor: Real-time environmental conditions with a “Run Score” risk indicator
 📅 Smart Schedule: Highlights safe vs risky time slots for outdoor running
