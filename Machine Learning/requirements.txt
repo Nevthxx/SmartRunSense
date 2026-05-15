@@ -1,0 +1,6 @@
+flask
+gunicorn
+pandas
+numpy
+google-cloud-firestore
+scikit-learn
